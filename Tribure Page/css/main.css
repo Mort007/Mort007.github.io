@@ -1,0 +1,40 @@
+#main {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+  }
+  #r {
+    font-style: italic;
+    margin-top: 50px;
+  }
+  #title {
+    font-size: 2em;  
+    background-color: white;
+  }
+  #img-caption {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  #link {
+    font-size: 18px;
+  }
+  #tribute-info {
+    background-color: gainsboro;  
+    padding: 10px 200px 10px 200px;
+  }
+  img{
+    max-width: 100%; 
+    display: block; 
+    height: auto;
+    margin: auto;
+  }
+  #img-div{
+    margin:-5px;
+    margin-top:20px;
+    width:100%;
+    border:5px solid white;
+    background:white;
+  }
+  ul {
+    list-style-type: square;
+    text-align: left;
+  }
