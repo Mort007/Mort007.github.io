@@ -1,56 +1,106 @@
+html, body {
+  font-family: "Lobster", "Open Sans", sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.work {
+  padding-top: 60px;
+}
+
 @media only screen and (max-width: 900px) {
-    ul {
-      display: block;
-    }
+  ul {
+    display: block;
   }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  nav {
-    text-align: center;
-    position: fixed;
-    width: 100%;
-  }
-  nav > ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    border-radius: 5px;
-  }
-  nav > ul > li {
-    float: left;
-    width: 300px;
-    height: 65px;
-    line-height: 65px;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
-  }
-  nav > ul > li:hover {
-    background: rgba(139, 69, 19, 0.2);
-    border-radius: 5px;
-  }
-  
-  #welcome-section {
-    min-height: 55vh;
-    padding-top: 45vh;
-    top: 0;
-    background: url(69.png) 0 0 repeat;
-  }
-  
-  #projects {
-    display: flex;
-  }
-  
-  body {
-    padding: 0;
-    margin: 0;
-    background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px;
-    background-color: #6F4A1C;
-    background-size: 12px 12px;
-  }
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #FFC300;
+}
+
+nav {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background: rgba(199, 0, 57, 0.5);
+}
+nav > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  border-radius: 50px;
+}
+nav > ul > li {
+  float: left;
+  width: 300px;
+  height: 60px;
+  line-height: 65px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#welcome-section {
+  min-height: 55vh;
+  padding-top: 45vh;
+  top: 0;
+  background: #D05A00;
+}
+#welcome-section h1 {
+  color: white;
+  font-size: 70px;
+}
+
+#contact {
+  padding-bottom: 10px;
+  width: 100%;
+}
+#contact h2 {
+  padding-bottom: 20px;
+}
+#contact a {
+  min-height: 10vh;
+  margin: 0 35px 45px 35px;
+  display: inline-block;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  border: 2px solid yellow;
+  border-radius: 100%;
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: 100px;
+}
+#contact a:hover {
+  border-color: green;
+  background: green;
+  color: white;
+}
+
+.project {
+  text-decoration: none;
+  color: #008080;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid lightblue;
+  height: 220px;
+  width: 280px;
+  margin: 40px 100px;
+}
+
+footer {
+  background: #FFC300;
+  color: black;
+  padding: 5px;
+}
